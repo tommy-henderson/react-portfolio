@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand>Your Name</Navbar.Brand>
+        <Navbar.Brand>Tommy Henderson Portfolio</Navbar.Brand>
         <Navigation />
       </Container>
     </Navbar>

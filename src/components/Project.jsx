@@ -1,12 +1,15 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 
 const Project = ({ title, description, link }) => {
   return (
-    <div className="project">
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer">Visit Project</a>
-    </div>
+    <Card>
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{description}</Card.Text>
+        <a href={link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Visit Project</a>
+      </Card.Body>
+    </Card>
   );
 };
 

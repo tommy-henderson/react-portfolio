@@ -1,13 +1,17 @@
 import React from 'react';
-import Navigation from './Navigation';
+import { Container, Navbar, Nav } from 'react-bootstrap';
+import Navigation from './navigation';
 
 const Header = () => {
   return (
-    <header>
-      <h1>Tommy Henderson</h1>
-      <Navigation />
-    </header>
+    <Navbar bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand>Your Name</Navbar.Brand>
+        <Navigation />
+      </Container>
+    </Navbar>
   );
 };
 
 export default Header;
+

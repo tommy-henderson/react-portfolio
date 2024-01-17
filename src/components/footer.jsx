@@ -1,10 +1,13 @@
 import React from 'react';
+import { Container, Navbar } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>&copy; 2024 Tommy Henderson</p>
-    </footer>
+    <Navbar fixed="bottom" bg="dark" variant="dark">
+      <Container>
+        <Navbar.Text>&copy; 2024 Your Name</Navbar.Text>
+      </Container>
+    </Navbar>
   );
 };
 

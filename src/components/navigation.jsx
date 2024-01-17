@@ -1,16 +1,13 @@
-// Navigation.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
 
 const Navigation = () => {
   return (
-    <nav>
-      <ul>
-        <li><Link to="/about">About Me</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-      </ul>
-    </nav>
+    <Nav className="ml-auto">
+      <Nav.Link href="#about">About Me</Nav.Link>
+      <Nav.Link href="#contact">Contact</Nav.Link>
+      <Nav.Link href="#projects">Projects</Nav.Link>
+    </Nav>
   );
 };
 

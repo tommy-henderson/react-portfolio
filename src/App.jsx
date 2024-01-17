@@ -19,10 +19,10 @@ const App = () => {
         }
       </section>
       <section id="projects">
-        <h2>Projects</h2>
-        <Project title="Project 1" description="Description of Project 1" link="https://project1.com" />
-        <Project title="Project 2" description="Description of Project 2" link="https://project2.com" />
-        <Project title="Project 3" description="Description of Project 3" link="https://project3.com" />
+        <h2 id="projectsHeader">Projects</h2>
+        <Project title="Lexipal" description="Calculate the relative frequency of any word in the English Language" link="https://chicago-august-20231.github.io/Word-Frequency-Calculator/" />
+        <Project title="DnD Character Generator" description="Easily create and save your very own Dungeons and Dragons characters with stat blocks" link="https://dnd-character-generator-app-3900836cda13.herokuapp.com/" />
+        <Project title="Talker" description="Augmentative & Alternative Communication Device" link="" />
       </section>
       <section id="contact">
         <h2>Contact</h2>

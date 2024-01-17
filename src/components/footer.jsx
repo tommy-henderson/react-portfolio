@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Navbar fixed="bottom" bg="dark" variant="dark">
       <Container>
-        <Navbar.Text>&copy; 2024 Your Name</Navbar.Text>
+        <Navbar.Text>&copy; 2024 Tommy Henderson</Navbar.Text>
       </Container>
     </Navbar>
   );
